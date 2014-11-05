@@ -1,5 +1,5 @@
 " Color references
-" ANSI 0  (normal black)     #774f38
+" ANSI 0  (normal black)     #555555
 " ANSI 1  (normal red)       #b95942
 " ANSI 2  (normal green)     #308444
 " ANSI 3  (normal yellow)    #996e1f
@@ -25,7 +25,7 @@ let g:colors_name="cake16"
 set background=light
 
 " General Colors
-hi Normal       guifg=#774f38   guibg=#f7efdf   ctermfg=0      ctermbg=15        gui=none      cterm=none
+hi Normal       guifg=#555555   guibg=#f7efdf   ctermfg=0      ctermbg=15        gui=none      cterm=none
 hi Comment      guifg=#878787   guibg=NONE      ctermfg=8      ctermbg=NONE      gui=none      cterm=none
 hi Constant     guifg=#b95942   guibg=NONE      ctermfg=1      ctermbg=NONE      gui=none      cterm=none
 hi Identifier   guifg=#308444   guibg=NONE      ctermfg=2      ctermbg=NONE      gui=none      cterm=none
@@ -41,7 +41,7 @@ hi Todo         guifg=#f10000   guibg=NONE      ctermfg=9      ctermbg=NONE     
 hi MatchParen   guifg=fg        guibg=#afafaf   ctermfg=fg     ctermbg=13        gui=none      cterm=none
 hi NonText      guifg=#878787   guibg=NONE      ctermfg=8      ctermbg=NONE      gui=none      cterm=none
 hi SpecialKey   guifg=#878787   guibg=NONE      ctermfg=8      ctermbg=NONE      gui=none      cterm=none
-hi Title        guifg=#b95942   guibg=NONE      ctermfg=1      ctermbg=NONE      gui=none      cterm=none
+hi Title        guifg=#b95942   guibg=NONE      ctermfg=1      ctermbg=NONE      gui=bold      cterm=none
 
 " Text Selection
 hi CursorIM     guifg=bg        guibg=fg        ctermfg=bg     ctermbg=fg        gui=none      cterm=none
@@ -53,7 +53,7 @@ hi IncSearch    guifg=bg        guibg=#82a3b3   ctermfg=bg     ctermbg=10       
 hi Search       guifg=bg        guibg=#c79747   ctermfg=bg     ctermbg=11        gui=none      cterm=none
 
 " UI
-hi LineNr       guifg=#afafaf   guibg=bg        ctermfg=13     ctermbg=bg        gui=none      cterm=none
+hi LineNr       guifg=fg        guibg=#e4dccc   ctermfg=13     ctermbg=bg        gui=none      cterm=none
 hi CursorLineNr guifg=fg        guibg=#e4dccc   ctermfg=fg     ctermbg=14        gui=none      cterm=none
 hi Pmenu        guifg=bg        guibg=#878787   ctermfg=bg     ctermbg=8         gui=none      cterm=none
 hi PmenuSel     guifg=bg        guibg=#82a3b3   ctermfg=bg     ctermbg=10        gui=none      cterm=none
@@ -83,7 +83,7 @@ hi DiffText     guifg=bg        guibg=fg        ctermfg=bg     ctermbg=fg       
 " Misc
 hi Directory    guifg=fg        guibg=NONE      ctermfg=fg     ctermbg=NONE      gui=none      cterm=none
 hi ErrorMsg     guifg=#f10000   guibg=NONE      ctermfg=9      ctermbg=NONE      gui=none      cterm=none
-hi SignColumn   guifg=#afafaf   guibg=NONE      ctermfg=13     ctermbg=NONE      gui=none      cterm=none
+hi SignColumn   guifg=#b95942   guibg=#e4dccc   ctermfg=fg     ctermbg=14        gui=bold      cterm=none
 hi MoreMsg      guifg=#878787   guibg=NONE      ctermfg=8      ctermbg=NONE      gui=none      cterm=none
 hi ModeMsg      guifg=fg        guibg=NONE      ctermfg=fg     ctermbg=NONE      gui=none      cterm=none
 hi Question     guifg=fg        guibg=NONE      ctermfg=fg     ctermbg=NONE      gui=none      cterm=none
@@ -91,3 +91,8 @@ hi WarningMsg   guifg=#b95942   guibg=NONE      ctermfg=1      ctermbg=NONE     
 hi WildMenu     guifg=#50707e   guibg=#e4dccc   ctermfg=4      ctermbg=14        gui=none      cterm=none
 hi ColorColumn  guifg=NONE      guibg=#ede4d4   ctermfg=NONE   ctermbg=7         gui=none      cterm=none
 hi Ignore       guifg=bg                        ctermfg=bg
+
+" HTML
+hi link htmlH1  Title
+
+let g:SignatureMarkTextHL = '"SignColumn"'
