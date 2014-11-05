@@ -8,7 +8,7 @@
 " ANSI 6  (normal cyan)      #308090
 " ANSI 7  (normal white)     #ede4d4
 " ANSI 8  (bright black)     #878787
-" ANSI 9  (bright red)       #f10000
+" ANSI 9  (bright red)       #aa070f
 " ANSI 10 (bright green)     #82a3b3
 " ANSI 11 (bright yellow)    #c79747
 " ANSI 12 (bright blue)      #678797
@@ -37,7 +37,7 @@ hi Special      guifg=#b95942 guibg=NONE    ctermfg=1     ctermbg=NONE  gui=none
 " Text Markup
 hi Underlined   guifg=NONE    guibg=NONE    ctermfg=NONE	ctermbg=NONE  gui=underline	cterm=underline
 hi Error        guifg=#f10000 guibg=NONE    ctermfg=9     ctermbg=NONE  gui=none      cterm=none
-hi Todo         guifg=#f10000 guibg=NONE    ctermfg=9     ctermbg=NONE  gui=none      cterm=none
+hi Todo         guifg=#aa070f guibg=NONE    ctermfg=9     ctermbg=NONE  gui=none      cterm=none
 hi MatchParen   guifg=fg      guibg=#afafaf ctermfg=fg    ctermbg=13    gui=none      cterm=none
 hi NonText      guifg=#878787 guibg=NONE    ctermfg=8     ctermbg=NONE  gui=none      cterm=none
 hi SpecialKey   guifg=#878787 guibg=NONE    ctermfg=8     ctermbg=NONE  gui=none      cterm=none
@@ -69,10 +69,10 @@ hi Folded       guifg=#afafaf guibg=NONE    ctermfg=13    ctermbg=NONE  gui=none
 hi FoldColumn   guifg=#afafaf	guibg=NONE    ctermfg=13    ctermbg=NONE  gui=none      cterm=none
 
 " Spelling
-hi SpellBad     guisp=#f10000               ctermfg=bg    ctermbg=9     gui=undercurl cterm=undercurl
-hi SpellCap     guisp=#f10000               ctermfg=bg    ctermbg=9     gui=undercurl cterm=undercurl
-hi SpellRare    guisp=#f10000               ctermfg=bg    ctermbg=9     gui=undercurl cterm=undercurl
-hi SpellLocal   guisp=#f10000               ctermfg=bg    ctermbg=9     gui=undercurl cterm=undercurl
+hi SpellBad     guisp=#aa070f               ctermfg=bg    ctermbg=9     gui=undercurl cterm=undercurl
+hi SpellCap     guisp=#aa070f               ctermfg=bg    ctermbg=9     gui=undercurl cterm=undercurl
+hi SpellRare    guisp=#aa070f               ctermfg=bg    ctermbg=9     gui=undercurl cterm=undercurl
+hi SpellLocal   guisp=#aa070f               ctermfg=bg    ctermbg=9     gui=undercurl cterm=undercurl
 
 " Diff
 hi DiffAdd      guifg=bg      guibg=#308444 ctermfg=bg    ctermbg=2     gui=none      cterm=none
@@ -101,4 +101,5 @@ hi SyntasticErrorSign
 hi SyntasticWarningSign
 							\ guifg=#c79747 guibg=#e4dccc ctermfg=fg    ctermbg=14    gui=bold      cterm=none
 
+" Signature
 let g:SignatureMarkTextHL = '"SignColumn"'
