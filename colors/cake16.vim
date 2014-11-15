@@ -39,8 +39,8 @@ hi Underlined   guifg=NONE    guibg=NONE    ctermfg=NONE	ctermbg=NONE  gui=under
 hi Error        guifg=#f10000 guibg=NONE    ctermfg=9     ctermbg=NONE  gui=none      cterm=none
 hi Todo         guifg=#aa070f guibg=NONE    ctermfg=9     ctermbg=NONE  gui=none      cterm=none
 hi MatchParen   guifg=fg      guibg=#afafaf ctermfg=fg    ctermbg=13    gui=none      cterm=none
-hi NonText      guifg=#afafaf guibg=NONE    ctermfg=8     ctermbg=NONE  gui=none      cterm=none
-hi SpecialKey   guifg=#afafaf guibg=NONE    ctermfg=8     ctermbg=NONE  gui=none      cterm=none
+hi NonText      guifg=#878787 guibg=NONE    ctermfg=8     ctermbg=NONE  gui=none      cterm=none
+hi SpecialKey   guifg=#afafaf guibg=NONE    ctermfg=13    ctermbg=NONE  gui=none      cterm=none
 hi Title        guifg=#b95942 guibg=NONE    ctermfg=1     ctermbg=NONE  gui=bold      cterm=none
 
 " Text Selection
