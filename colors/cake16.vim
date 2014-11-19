@@ -64,7 +64,7 @@ hi StatusLineNC guifg=bg      guibg=#afafaf ctermfg=bg    ctermbg=13    gui=none
 hi TabLine      guifg=bg      guibg=#878787 ctermfg=bg    ctermbg=8     gui=none      cterm=none
 hi TabLineFill  guifg=bg      guibg=#878787 ctermfg=bg    ctermbg=8     gui=none      cterm=none
 hi TabLineSel   guifg=fg      guibg=bg      ctermfg=fg    ctermbg=bg    gui=none      cterm=none
-hi VertSplit    guifg=fg      guibg=bg      ctermfg=fg    ctermbg=bg    gui=none      cterm=none
+hi VertSplit    guifg=bg      guibg=#afafaf ctermfg=bg    ctermbg=13    gui=none      cterm=none
 hi Folded       guifg=#afafaf guibg=NONE    ctermfg=13    ctermbg=NONE  gui=none      cterm=none
 hi FoldColumn   guifg=#afafaf	guibg=NONE    ctermfg=13    ctermbg=NONE  gui=none      cterm=none
 
