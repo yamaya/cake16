@@ -91,7 +91,7 @@ hi WarningMsg   guifg=#b95942 guibg=NONE    ctermfg=1     ctermbg=NONE  gui=none
 hi WildMenu     guifg=#50707e guibg=#e4dccc	ctermfg=4     ctermbg=14    gui=none      cterm=none
 hi ColorColumn  guifg=NONE    guibg=#ede4d4 ctermfg=NONE  ctermbg=7     gui=none      cterm=none
 hi Ignore       guifg=bg                    ctermfg=bg
-hi Directory		guifg=DodgerBlue3           cetermfg=3                  gui=bold      ceterm=bold
+hi Directory		guifg=DodgerBlue3           ctermfg=3                   gui=bold      cterm=bold
 
 " HTML
 hi link htmlH1  Title
