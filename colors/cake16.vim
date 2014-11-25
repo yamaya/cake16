@@ -25,7 +25,7 @@ let g:colors_name="cake16"
 set background=light
 
 " General Colors
-hi Normal       guifg=#555555 guibg=#f7efdf ctermfg=0     ctermbg=15    gui=none      cterm=none
+hi Normal       guifg=#444444 guibg=#f7efdf ctermfg=0     ctermbg=15    gui=none      cterm=none
 hi Comment      guifg=#878787 guibg=NONE    ctermfg=8     ctermbg=NONE	gui=italic    cterm=none
 hi Constant     guifg=#b95942 guibg=NONE    ctermfg=1     ctermbg=NONE  gui=none      cterm=none
 hi Identifier   guifg=#308444 guibg=NONE    ctermfg=2     ctermbg=NONE  gui=none      cterm=none
