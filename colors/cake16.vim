@@ -1,5 +1,5 @@
 " Color references
-" ANSI 0  (normal black)     #555555
+" ANSI 0  (normal black)     #444444
 " ANSI 1  (normal red)       #b95942
 " ANSI 2  (normal green)     #308444
 " ANSI 3  (normal yellow)    #996e1f
