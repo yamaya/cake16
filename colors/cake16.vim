@@ -1,5 +1,5 @@
 " Color references
-" ANSI 0  (normal black)     #555555
+" ANSI 0  (normal black)     #444444
 " ANSI 1  (normal red)       #b95942
 " ANSI 2  (normal green)     #308444
 " ANSI 3  (normal yellow)    #996e1f
@@ -104,3 +104,9 @@ hi SyntasticWarningSign
 
 " Signature
 let g:SignatureMarkTextHL = '"SignColumn"'
+
+" ShowMarks
+hi ShowMarksHLl   guifg=#c79747 guibg=#e4dccc ctermfg=2   ctermbg=14    gui=bold      cterm=none
+hi ShowMarksHLu   guifg=#c79747 guibg=#e4dccc ctermfg=2   ctermbg=14    gui=bold      cterm=none
+hi ShowMarksHLo   guifg=bg      guibg=#e4dccc ctermfg=2   ctermbg=14    gui=none      cterm=none
+hi ShowMarksHLm   guifg=bg      guibg=#e4dccc ctermfg=2   ctermbg=14    gui=none      cterm=none
