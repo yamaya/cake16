@@ -104,3 +104,9 @@ hi SyntasticWarningSign
 
 " Signature
 let g:SignatureMarkTextHL = '"SignColumn"'
+
+" ShowMarks
+hi ShowMarksHLl	guifg=#c79747 guibg=#e4dccc ctermfg=fg    ctermbg=14    gui=none      cterm=none
+hi ShowMarksHLo	guifg=bg      guibg=#e4dccc ctermfg=bg    ctermbg=14    gui=none      cterm=none
+hi default link ShowMarksHLl ShowMarksHLu
+hi default link ShowMarksHLo ShowMarksHLm
