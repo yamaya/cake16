@@ -7,7 +7,7 @@
 " ANSI 5  (normal magenta)   #aa56b2
 " ANSI 6  (normal cyan)      #308090
 " ANSI 7  (normal white)     #ede4d4
-" ANSI 8  (bright black)     #878787
+" ANSI 8  (bright black)     #a7a7a7
 " ANSI 9  (bright red)       #aa070f
 " ANSI 10 (bright green)     #82a3b3
 " ANSI 11 (bright yellow)    #c79747
@@ -26,7 +26,7 @@ set background=light
 
 " General Colors
 hi Normal       guifg=#444444 guibg=#f7efdf ctermfg=0     ctermbg=15    gui=none      cterm=none
-hi Comment      guifg=#878787 guibg=NONE    ctermfg=8     ctermbg=NONE	gui=italic    cterm=none
+hi Comment      guifg=#a7a7a7 guibg=NONE    ctermfg=8     ctermbg=NONE	gui=italic    cterm=none
 hi Constant     guifg=#b95942 guibg=NONE    ctermfg=1     ctermbg=NONE  gui=none      cterm=none
 hi Identifier   guifg=#308444 guibg=NONE    ctermfg=2     ctermbg=NONE  gui=none      cterm=none
 hi Statement    guifg=#308090 guibg=NONE    ctermfg=6     ctermbg=NONE  gui=none      cterm=none
@@ -39,7 +39,7 @@ hi Underlined   guifg=NONE    guibg=NONE    ctermfg=NONE	ctermbg=NONE  gui=under
 hi Error        guifg=#f10000 guibg=NONE    ctermfg=9     ctermbg=NONE  gui=none      cterm=none
 hi Todo         guifg=#aa070f guibg=NONE    ctermfg=9     ctermbg=NONE  gui=none      cterm=none
 hi MatchParen   guifg=fg      guibg=#afafaf ctermfg=fg    ctermbg=13    gui=none      cterm=none
-hi NonText      guifg=#878787 guibg=NONE    ctermfg=8     ctermbg=NONE  gui=none      cterm=none
+hi NonText      guifg=#a7a7a7 guibg=NONE    ctermfg=8     ctermbg=NONE  gui=none      cterm=none
 hi SpecialKey   guifg=#afafaf guibg=NONE    ctermfg=13    ctermbg=NONE  gui=none      cterm=none
 hi Title        guifg=#b95942 guibg=NONE    ctermfg=1     ctermbg=NONE  gui=bold      cterm=none
 
