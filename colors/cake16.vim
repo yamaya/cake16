@@ -40,7 +40,7 @@ hi Underlined   guifg=NONE    guibg=NONE    ctermfg=NONE	ctermbg=NONE  gui=under
 hi Error        guifg=#f10000 guibg=NONE    ctermfg=9     ctermbg=NONE  gui=none      cterm=none
 hi Todo         guifg=#aa070f guibg=NONE    ctermfg=9     ctermbg=NONE  gui=none      cterm=none
 hi MatchParen   guifg=fg      guibg=#afafaf ctermfg=fg    ctermbg=13    gui=none      cterm=none
-hi NonText      guifg=#a7a7a7 guibg=NONE    ctermfg=8     ctermbg=NONE  gui=none      cterm=none
+hi NonText      guifg=#afafaf guibg=NONE    ctermfg=13    ctermbg=NONE  gui=none      cterm=none
 hi SpecialKey   guifg=#afafaf guibg=NONE    ctermfg=13    ctermbg=NONE  gui=none      cterm=none
 hi Title        guifg=#c15915 guibg=NONE    ctermfg=1     ctermbg=NONE  gui=bold      cterm=none
 
@@ -66,8 +66,8 @@ hi TabLine      guifg=bg      guibg=#878787 ctermfg=bg    ctermbg=8     gui=none
 hi TabLineFill  guifg=bg      guibg=#878787 ctermfg=bg    ctermbg=8     gui=none      cterm=none
 hi TabLineSel   guifg=fg      guibg=bg      ctermfg=fg    ctermbg=bg    gui=none      cterm=none
 hi VertSplit    guifg=bg      guibg=#afafaf ctermfg=bg    ctermbg=13    gui=none      cterm=none
-hi Folded       guifg=#afafaf guibg=NONE    ctermfg=13    ctermbg=NONE  gui=none      cterm=none
-hi FoldColumn   guifg=#afafaf	guibg=NONE    ctermfg=13    ctermbg=NONE  gui=none      cterm=none
+hi Folded       guifg=#878787 guibg=NONE    ctermfg=8     ctermbg=NONE  gui=none      cterm=none
+hi FoldColumn   guifg=#878787	guibg=NONE    ctermfg=13    ctermbg=NONE  gui=none      cterm=none
 
 " Spelling
 hi SpellBad     guisp=#aa070f               ctermfg=bg    ctermbg=9     gui=undercurl cterm=undercurl
